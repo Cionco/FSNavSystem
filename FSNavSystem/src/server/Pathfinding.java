@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Pathfinding {
 
-	final static int HEIGHT = 4;
-	final static int WIDTH = 4;
+	final static int HEIGHT = 20;
+	public final static int WIDTH = 20;
 	static ArrayList<Node> field = new ArrayList<Node>();
 	
 	

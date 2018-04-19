@@ -25,7 +25,7 @@ public class AstarTestGui extends JFrame {
 				java.util.Scanner in = null;
 				try {
 					in = new java.util.Scanner(System.in);
-					int size = in.nextInt();
+					int size = server.Pathfinding.WIDTH; //in.nextInt();
 					
 					AstarTestGui frame = new AstarTestGui(size);
 					frame.setVisible(true);
@@ -92,7 +92,7 @@ public class AstarTestGui extends JFrame {
 				
 				ArrayList<Integer> indexes = new ArrayList<Integer>();
 				try {
-					for(Pathfinding.Node n : Pathfinding._astar(0, 1599))
+					for(Pathfinding.Node n : Pathfinding._astar(0, size * size - 1))
 						indexes.add(n.getIndex());
 				
 					pane.paintAll(indexes);
