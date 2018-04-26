@@ -8,9 +8,10 @@ public class Feld {
 	private int y;
 
 	private Figur besetzt;
-
-	public void istBesetzt() {
-
+	
+	public boolean istBesetzt() {	
+	return besetzt != null;
 	}
-
 }
+
+
