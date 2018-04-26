@@ -2,9 +2,8 @@ package spiel;
 
 public class Feld {
 
-private int x;
-private int y;
-
+	private int x; //THis is a test
+	private int y;
 
 
 
@@ -12,4 +11,5 @@ private int y;
 public void istBesetzt() {
 	
 }
+
 }
