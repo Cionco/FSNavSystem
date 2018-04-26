@@ -1,15 +1,16 @@
 package spiel;
 
+import figuren.Figur;
+
 public class Feld {
 
-	private int x; //THis is a test
+	private int x;
 	private int y;
 
+	private Figur besetzt;
 
+	public void istBesetzt() {
 
-
-public void istBesetzt() {
-	
-}
+	}
 
 }
