@@ -2,6 +2,6 @@ package spiel;
 
 public class Brett {
 
-	private Feld Feld[];
-	
+	private Feld felder[];
+
 }
